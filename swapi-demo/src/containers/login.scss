@@ -1,0 +1,25 @@
+.container-form{display: block; max-width: 500px!important;margin: 30px auto!important; width: 98%;
+     fieldset {
+        border: none;
+        margin-top: 30px;
+    }
+    legend{
+        color: #fff;
+        font-size: 24px;
+    margin-bottom: 20px;
+    }
+    input {
+        padding: 6px 4px;
+        border: solid 1px #ccc;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        padding: 10px 20px;
+        border: 0px;
+        font-size: 16px;
+        background: #e44444;
+        color: #fff;
+        cursor: pointer;
+    }
+}

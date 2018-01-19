@@ -1,0 +1,67 @@
+@import '../scss/breakpoints';
+@import '../scss/colors';
+@import '../scss/typography';
+
+$padding: 20px;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $body-bg;
+  padding: 0;
+  color: $base-color;
+  font-family: $body-font;
+  font-size: $body-font-size;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $laptop) {
+    height: 100%;
+    flex-direction: row;
+  }
+}
+
+.header {
+  display: flex;
+  padding: 0 $padding;
+  width: 100%;
+  color: $base-color;
+  flex-direction: column;
+
+  @media screen and (min-width: $laptop) {
+    position: fixed;
+    width: 40%;
+  }
+}
+
+.content {
+  padding: $padding;
+  width: 100%;
+
+  @media screen and (min-width: $laptop) {
+    margin-left: 40%;
+    width: 60%;
+  }
+}
+
+input {
+  padding: 6px 4px;
+  border: solid 1px #ccc;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  border: 0px;
+  font-size: 16px;
+  background: #e44444;
+  color: #fff;
+  margin-bottom: 10px;
+  float: right;
+  cursor: pointer;
+}

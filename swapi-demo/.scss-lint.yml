@@ -1,0 +1,12 @@
+scss_files: "./src/**/*.scss"
+
+linters:
+  NestingDepth:
+    max_depth: 4
+  VendorPrefix:
+    enabled: false
+  SelectorFormat:
+    enabled: true
+    convention: strict_BEM
+  PropertySortOrder:
+    order: concentric

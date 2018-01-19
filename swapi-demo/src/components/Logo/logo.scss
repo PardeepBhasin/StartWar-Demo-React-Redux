@@ -1,0 +1,16 @@
+@import '../../scss/breakpoints';
+@import '../../scss/colors';
+
+.logo {
+  margin: 20px auto;
+  width: 200px;
+  max-width: 80%;
+  height: auto;
+  fill: $base-color;
+  align-self: center;
+
+  @media screen and (min-width: $laptop) {
+    margin-top: 100px;
+    width: 400px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "babel",
+    "jsx-a11y",
+    "react",
+    "import"
+  ],
+  "rules": {
+    "no-underscore-dangle": 0,
+    "react/require-extension": "off",
+    "react/no-danger": "off"
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  }
+}
